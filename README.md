@@ -1,5 +1,5 @@
 
-# 🤖 Discord Bot
+# 🤖 Jarvis - Discord Bot
 
 ## 👨🏼‍💻 Developers:
 ### 👨🏼‍💻 Michea Colautti
