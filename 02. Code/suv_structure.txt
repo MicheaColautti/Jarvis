@@ -1,0 +1,187 @@
+--------------- ======================== ---------------
+--------------- === SERVER STRUCTURE === ---------------
+--------------- ======================== ---------------
+
+{
+							    ---	============ ---
+							--- === GENERAL INFO === ---
+								--- ============ ---
+
+	"name": "Stati Uniti di Vacallo",
+	"description": "Server per chillare tutt insema",
+	"date": "22.03.2021"
+	"bot": {
+		"name": "Jarvis",
+		"version": "1.0.0",
+		"enabled": false
+	}
+
+							    ---	===================== ---
+							--- === CATEGORIES & CHANNELS === ---
+								--- ===================== ---
+	"categories": {
+		"channels": {
+			"@welcome": {
+				"name": "welcome",
+				"type": "text chat",
+				"roles": "Everyone" > "only read"
+			},
+			"@goodbye": {
+				"name": "goodbye",
+				"type": "text chat",
+				"roles": "Everyone" > "only read"
+			}
+		}
+
+		"@main": {
+			"name": "main",
+			"description": "È la categoria principale, con canali normie",
+			"channels": {
+				"@generale": {
+					"name": "generale",
+					"type": "text chat",
+					"roles": "Everyone"
+				},
+				"@generale": {
+					"name": "generale",
+					"type": "vocal chat",
+					"roles": "Everyone"
+				}
+			}
+		}
+
+		"@chill": {
+			"name": "Chill",
+			"description": "Categoria per il chilling",
+			"channels": {
+				"@gaming": {
+					"name": "Gaming",
+					"type": "vocal-chat",
+					"roles": Everyone
+				},
+				"@streaming": {
+					"name": "Streaming",
+					"type": "vocal-chat",
+					"roles": Everyone
+				},
+				"@silence": {
+					"name": "Silence",
+					"type": "vocal-chat",
+					"roles": Everyone
+				}
+			}
+		}
+
+		"@theater": {
+			"name": "theater",
+			"description": "Per soli uomini di cultura, teatro",
+			"channels": {
+				"@sala1": {
+					"name": "Sala 1",
+					"type": "vocal chat",
+					"roles": "Cinema Gang",
+					"limit": 10,
+					"REMINDER": "Aumentare i kbps della chat vocale"
+				},
+				"@sala2": {
+					"name": "Sala 2",
+					"type": "vocal chat",
+					"roles": "Cinema Gang",
+					"limit": 10,
+					"REMINDER": "Aumentare i kbps della chat vocale"
+				}
+			}
+		}
+
+		"@nsfw": {
+			"name": "nsfw",
+			"description": "Canale per le robettine :) > non sicure per lavoro",
+			"channels": {
+				"@nsfw": {
+					"name": "nsfw",
+					"type": "text chat",
+					"roles": "special-kid"
+				}
+			}
+		}
+
+		"@studio": {
+			"name": "Studio",
+			"description": "Canale adibito allo studio delle materie informatiche e non",
+			"channels": {
+				"@compiti": {
+					"name": "compiti",
+					"type": "text-chat",
+					"roles": "Everyone"
+				},
+				"@studio": {
+					"name": "Studio",
+					"type": "vocal-chat",
+					"roles": "Everyone"
+				},
+				"@aiutino": {
+					"name": "Aiutino",
+					"type": "vocal-chat",
+					"roles": "Everyone",
+					"limit": 3,
+					"NOTE:": "Canale per aiutini veloci di pochi minuti o di intere giornate"
+				}
+			}
+		}
+	}
+
+							    --- ===== ---
+							--- === ROLES === ---
+								--- ===== ---
+	"roles": {
+		"@presidente": {
+			"name": "presidente",
+			"extended-name": "presidente",
+			"color": "yellow",
+			"description": "È il fondatore del server",
+			"permission": "Ha tutti i permessi di ammitratore, e ha potere su tutto"
+		},
+		"@senator": {
+			"name": "senator",
+			"extended-name": "senator",
+			"color": "blue",
+			"description": "È il senatore del server",
+			"permission": "Ha tutti i permessi di ammitratore, e ha potere su quasi tutto"
+		},
+		"@special-kid": {
+			"name": "special-kid",
+			"extended-name": "special-kid",
+			"color": "purple",
+			"description": "È IL BAMBINO SPECIALE, DOWN OKAY?",
+			"permission": "Ha tutti i permessi di ammitratore, e ha potere su tutto"
+		},
+		"@mod": {
+			"name": "mod",
+			"extended-name": "moderator",
+			"color": "green-light",
+			"description": "È il moderatore del server",
+			"permission": "Ha i permessi necessari per mantenere l'ordine nel server"
+		},
+		"@dev": {
+			"name": "dev",
+			"extended-name": "developer",
+			"color": "red-light",
+			"description": "È lo sviluppatore del server",
+			"permission": "Ha i permessi necessari per lo sviluppo del server e gli upgrade del bot"
+		},
+		"@elite": {
+			"name": "elite",
+			"extended-name": "elite",
+			"color": "orange",
+			"description": "È l'elite del server. Fanno parte dell'elite gli OG users e quelli più longevi",
+			"permission": "Hanno i permessi uguali a 'plebe' ma con qualcosa in più a scelta del 'founder'",
+		},
+		"@plebe": {
+			"name": "plebe",
+			"extended-name": "plebe",
+			"color": "white",
+			"description": "Fanno parte della 'plebe' i nuovi arrivati",
+			"permission": "Ha i permessi basici di un normale utente"
+		}
+	}
+}

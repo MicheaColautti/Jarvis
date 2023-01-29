@@ -1,0 +1,33 @@
+==============================
+====== SERVER STRUCTURE ======
+==============================
+
+{
+    "name-server": "Chill House",
+    "version": "1.0.0",
+    "bot": {
+        "@bot-jarvis": {
+            "name": Jarvis,
+            "version": 1.0.0
+            "enabled": yes,
+        }
+    }
+    "description":
+
+    "categories": {
+
+    }
+
+    "channels": {
+
+    }
+
+    "roles": {
+        "@ROLE_NAME": {
+            "name": ...,
+            "description": ...,
+            "level": ...
+        }
+    }
+}
+
